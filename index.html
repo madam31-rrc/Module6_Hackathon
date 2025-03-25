@@ -2,10 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Personalized Greeting + Theme Switcher</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h1 id="greeting">Welcome!</h1>
+        <input type="text" id="nameInput" placeholder="Enter your name" />
+        <button id="saveNameBtn">Save Name</button>
+        <button id="clearNameBtn">Clear Name</button>
+
+        <h2>Choose Theme:</h2>
+        <button id="lightModeBtn">Light Mode</button>
+        <button id="darkModeBtn">Dark Mode</button>
+        <button id="clearThemeBtn">Reset Theme</button>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
